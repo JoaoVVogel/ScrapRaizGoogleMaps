@@ -1,0 +1,36 @@
+{
+  "name": "scrapraizgooglemaps",
+  "version": "1.0.0",
+  "description": "Fazer scrap do google maps",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm seu_script.js",
+    "test": "teste.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Willian-Torrente/scrapraizgooglemaps.git"
+  },
+  "keywords": [
+    "15894918"
+  ],
+  "author": "Willian Torrente",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Willian-Torrente/scrapraizgooglemaps/issues"
+  },
+  "homepage": "https://github.com/Willian-Torrente/scrapraizgooglemaps#readme",
+  "type": "module",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "esm": "^3.2.25",
+    "exceljs": "^4.4.0",
+    "fs": "^0.0.1-security",
+    "mkdirp": "^3.0.1",
+    "path": "^0.12.7",
+    "puppeteer": "^21.9.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "slugify": "^1.6.6"
+  }
+}
